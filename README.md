@@ -19,5 +19,5 @@ PORT=8080 go run *.go
 ```
 gcloud auth login
 gcloud config set project <project-id>
-gcloud app deploy app/app.yaml -v v1
+gcloud app deploy
 ```
